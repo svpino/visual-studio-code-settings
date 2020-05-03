@@ -337,7 +337,7 @@
         "when": "breadcrumbsActive && breadcrumbsVisible"
     },
     {
-        "key": "numpad2",
+        "key": "alt+numpad2",
         "command": "history.showNext",
         "when": "historyNavigationEnabled && historyNavigationWidget"
     },
@@ -407,7 +407,7 @@
         "when": "inSettingsSearch && !suggestWidgetVisible"
     },
     {
-        "key": "numpad2",
+        "key": "alt+numpad2",
         "command": "showNextParameterHint",
         "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
     },
@@ -437,7 +437,7 @@
         "when": "editorTextFocus && inputFocus && notebookEditorFocused && notebookEditorCursorAtBoundary != 'none' && notebookEditorCursorAtBoundary != 'top'"
     },
     {
-        "key": "numpad8",
+        "key": "alt+numpad8",
         "command": "history.showPrevious",
         "when": "historyNavigationEnabled && historyNavigationWidget"
     },
@@ -477,7 +477,7 @@
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "numpad8",
+        "key": "alt+numpad8",
         "command": "showPrevParameterHint",
         "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
     },
@@ -507,7 +507,7 @@
         "when": "editorTextFocus && inputFocus && notebookEditorFocused && notebookEditorCursorAtBoundary != 'bottom' && notebookEditorCursorAtBoundary != 'none'"
     },
     {
-        "key": "numpad4",
+        "key": "alt+numpad4",
         "command": "breadcrumbs.focusPrevious",
         "when": "breadcrumbsActive && breadcrumbsVisible"
     },
@@ -547,7 +547,7 @@
         "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus"
     },
     {
-        "key": "numpad6",
+        "key": "alt+numpad6",
         "command": "breadcrumbs.focusNext",
         "when": "breadcrumbsActive && breadcrumbsVisible"
     },
@@ -939,5 +939,95 @@
         "key": "cmd+home",
         "command": "workbench.action.terminal.scrollToTop",
         "when": "terminalFocus"
+    },
+    {
+        "key": "alt+numpad8",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "history.showPrevious",
+        "when": "historyNavigationEnabled && historyNavigationWidget"
+    },
+    {
+        "key": "alt+up",
+        "command": "showPrevParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "alt+numpad2",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "history.showNext",
+        "when": "historyNavigationEnabled && historyNavigationWidget"
+    },
+    {
+        "key": "alt+down",
+        "command": "showNextParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "alt+left",
+        "command": "breadcrumbs.focusPrevious",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "alt+numpad4",
+        "command": "breadcrumbs.focusPreviousWithPicker",
+        "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "breadcrumbs.focusPreviousWithPicker",
+        "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "breadcrumbs.focusNext",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "alt+numpad6",
+        "command": "breadcrumbs.focusNextWithPicker",
+        "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "breadcrumbs.focusNextWithPicker",
+        "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+    },
+    {
+        "key": "alt+numpad_decimal",
+        "command": "workbench.action.terminal.deleteWordRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+delete",
+        "command": "workbench.action.terminal.deleteWordRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+numpad_decimal",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+delete",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
     },
  ]
