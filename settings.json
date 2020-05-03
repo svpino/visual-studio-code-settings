@@ -1,0 +1,50 @@
+{
+    "workbench.settings.editor": "json",
+
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "selection",
+    "editor.codeLens": false,
+    "editor.columnSelection": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "recentlyUsed",
+
+    "workbench.editor.closeEmptyGroups": false,
+
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 13,
+
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": true,
+    "zenMode.hideTabs": true,
+    "zenMode.centerLayout": true,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": true,
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.associations": {
+        "*.m": "plaintext",
+        "Dockerfile_*": "dockerfile",
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.github": true,
+        "**/.pytest_cache": true,
+        "**/.vscode": true,
+        "**/*.egg-info": true,
+        "**/build": true,
+        "**/dist": true
+    },
+
+    "window.zoomLevel": 0,
+
+    "python.venvPath": "~/.venv",
+    "python.formatting.provider": "black",
+    "python.jediEnabled": false,
+    
+
+}
