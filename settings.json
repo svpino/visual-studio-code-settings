@@ -12,6 +12,8 @@
     "editor.fontLigatures": true,
     "editor.suggestSelection": "recentlyUsed",
 
+    "debug.toolBarLocation": "docked",
+
     "workbench.editor.closeEmptyGroups": false,
 
     "terminal.integrated.fontFamily": "JetBrains Mono",
