@@ -82,7 +82,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "numpad7",
+        "key": "cmd+numpad4",
         "command": "cursorHome",
         "when": "textInputFocus"
     },
@@ -97,7 +97,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "numpad1",
+        "key": "cmd+numpad6",
         "command": "cursorEnd",
         "when": "textInputFocus"
     },
@@ -173,12 +173,12 @@
     },
     {
         "key": "alt+left",
-        "command": "cursorWordEndLeft",
+        "command": "cursorWordStartLeft",
         "when": "textInputFocus"
     },
     {
         "key": "alt+numpad4",
-        "command": "cursorWordEndLeft",
+        "command": "cursorWordStartLeft",
         "when": "textInputFocus"
     },
     {
@@ -193,12 +193,12 @@
     },
     {
         "key": "shift+alt+left",
-        "command": "cursorWordEndLeftSelect",
+        "command": "cursorWordStartLeftSelect",
         "when": "textInputFocus"
     },
     {
         "key": "shift+alt+numpad4",
-        "command": "cursorWordEndLeftSelect",
+        "command": "cursorWordStartLeftSelect",
         "when": "textInputFocus"
     },
     {
@@ -242,7 +242,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "cmd+up",
+        "key": "cmd+numpad7",
         "command": "cursorTop",
         "when": "textInputFocus"
     },
@@ -252,7 +252,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "cmd+down",
+        "key": "cmd+numpad1",
         "command": "cursorBottom",
         "when": "textInputFocus"
     },
@@ -1071,7 +1071,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "shift+cmd+numpad8",
+        "key": "cmd+numpad4",
         "command": "list.collapseAll",
         "when": "listFocus && !inputFocus"
     },
@@ -1079,5 +1079,30 @@
         "key": "shift+cmd+up",
         "command": "list.collapseAll",
         "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+left",
+        "command": "list.collapseAll",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+numpad4",
+        "command": "workbench.action.terminal.moveToLineStart",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+left",
+        "command": "workbench.action.terminal.moveToLineStart",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+numpad6",
+        "command": "workbench.action.terminal.moveToLineEnd",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "workbench.action.terminal.moveToLineEnd",
+        "when": "terminalFocus"
     },
  ]

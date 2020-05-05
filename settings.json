@@ -20,7 +20,7 @@
     "terminal.integrated.fontSize": 13,
 
     "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": true,
+    "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": true,
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
@@ -47,6 +47,14 @@
     "python.venvPath": "~/.venv",
     "python.formatting.provider": "black",
     "python.jediEnabled": false,
-    
+
+
+    /* Custom Extensions */
+
+    // TODOs
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.enabled": false,
+    "todo-tree.tree.expanded": true,
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false
 
 }
