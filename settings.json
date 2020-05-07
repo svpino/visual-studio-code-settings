@@ -20,7 +20,7 @@
     "terminal.integrated.fontSize": 13,
 
     "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": false,
+    "zenMode.hideLineNumbers": true,
     "zenMode.hideTabs": true,
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
@@ -55,6 +55,9 @@
     "todo-tree.tree.showScanModeButton": false,
     "todo-tree.highlights.enabled": false,
     "todo-tree.tree.expanded": true,
-    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false
+
+    "bookmarks.sideBar.expanded": true,
+    
+    "autoDocstring.docstringFormat": "google",
 
 }

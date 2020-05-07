@@ -747,7 +747,7 @@
         "when": "notificationFocus && notificationToastsVisible"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "workbench.action.terminal.copySelection",
         "when": "terminalFocus && terminalTextSelected"
     },
@@ -757,7 +757,7 @@
         "when": "terminalFocus && terminalTextSelected"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "editor.action.webvieweditor.copy",
         "when": "!editorFocus && !inputFocus && activeEditor == 'WebviewEditor'"
     },
@@ -767,7 +767,7 @@
         "when": "!editorFocus && !inputFocus && activeEditor == 'WebviewEditor'"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "execCopy"
     },
     {
@@ -775,7 +775,7 @@
         "command": "execCopy"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "filesExplorer.copy",
         "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
     },
@@ -785,7 +785,7 @@
         "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "keybindings.editor.copyKeybindingEntry",
         "when": "inKeybindings && keybindingFocus"
     },
@@ -795,7 +795,7 @@
         "when": "inKeybindings && keybindingFocus"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "problems.action.copy",
         "when": "problemFocus"
     },
@@ -805,7 +805,7 @@
         "when": "problemFocus"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "remote.tunnel.copyAddressInline",
         "when": "tunnelViewFocus && tunnelType == 'Detected' || tunnelViewFocus && tunnelType == 'Forwarded'"
     },
@@ -815,7 +815,7 @@
         "when": "tunnelViewFocus && tunnelType == 'Detected' || tunnelViewFocus && tunnelType == 'Forwarded'"
     },
     {
-        "key": "cmd+numpad0",
+        "key": "alt+numpad0",
         "command": "search.action.copyMatch",
         "when": "fileMatchOrMatchFocus"
     },
